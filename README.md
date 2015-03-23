@@ -8,6 +8,7 @@ Steps to get Dipwatch functional
 
 1. Install python dependencies: requests and BeautifulSoup. This should
    be as easy as
+
         - pip install requests
         - pip install beautifulsoup4
 
@@ -22,7 +23,7 @@ Steps to get Dipwatch functional
 3. Only notifications to your Gmail account are supported at the moment.
    Replace the header DPW_GMAIL_UID with your email address, and DPW_GMAIL_ASP
    with an Application-Specific Password for this script. You can configure
-   these at accounts.google.com
+   these at https://accounts.google.com
 
 4. Set DPW_REFRESH_MINUTES to your desired update frequency. No emails 
    will be sent unless the game changes state. Please DO NOT use a number
