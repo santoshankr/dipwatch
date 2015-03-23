@@ -34,7 +34,7 @@ How to Run
 
 I recommend doing
 
-    python dipwatch.py 2>&1 >dipwatch.log &
+    python dipwatch.py >dipwatch.log 2>&1 &
 
 Occassionally examine dipwatch.log to make sure everything is okay. You
 should get an email as soon as you start the script when it fetches current
