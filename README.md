@@ -28,6 +28,17 @@ Steps to get Dipwatch functional
    will be sent unless the game changes state. Please DO NOT use a number
    lower than 10 minutes, be nice to the server.
 
+How to Run
+-----------------------------------
+
+I recommend doing
+
+python dipwatch.py 2>&1 >dipwatch.log &
+
+Occassionally examine dipwatch.log to make sure everything is okay. You
+should get an email as soon as you start the script when it fetches current
+state, things are probably working if you do.
+
 Known Bugs and Issues
 ------------------------------------
 
