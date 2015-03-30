@@ -5,10 +5,9 @@ from time import sleep
 from bs4 import BeautifulSoup as bs
 
 DPW_GAME_ID = 157247 # GAME ID YOU'RE INTERESTED IN GOES HERE
-DPW_WEBDIP_COOKIE = '' # YOUR LONG TERM COOKIE GOES HERE
 DPW_REFRESH_MINUTES = 30
 
-DPW_GMAIL_UID = '' # YOUR GMAIL ADDRESS GOES HERE
+DPW_GMAIL_UID = '' # YOUR FULL GMAIL ADDRESS GOES HERE e.g. dipwatch@gmail.com  
 DPW_GMAIL_ASP = '' # YOUR APPLICATION SPECIFIC PASSWORD GOES HERE
 
 game_state = {'season':'Winter', 'year':'1900', 'phase':'Pre-Game'}
@@ -18,7 +17,6 @@ headers = {
         'Accept-Language':'en-US,en;q=0.8,es;q=0.6,ms;q=0.4',
         'Cache-Control':'max-age=0',
         'Connection':'keep-alive',
-        'Cookie': DPW_WEBDIP_COOKIE,
         'Host':'webdiplomacy.net',
         'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.101 Safari/537.36'
 }
