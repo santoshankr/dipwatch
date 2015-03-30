@@ -14,18 +14,12 @@ Steps to get Dipwatch functional
 
    Look at the documentation for those packages for help
 
-2. Replace the header DPW_WEBDIP_COOKIE with your WebDiplomacy cookie. 
-   Remember to check the 'Keep me signed in' option before you extract
-   the cookie so you don't have to keep changing it. This is a stopgap
-   solution, if you'd like to implement the full login, I'm happy to
-   accept pull requests
-
-3. Only notifications to your Gmail account are supported at the moment.
+2. Only notifications to your Gmail account are supported at the moment.
    Replace the header DPW_GMAIL_UID with your email address, and DPW_GMAIL_ASP
    with an Application-Specific Password for this script. You can configure
    these at https://accounts.google.com
 
-4. Set DPW_REFRESH_MINUTES to your desired update frequency. No emails 
+3. Set DPW_REFRESH_MINUTES to your desired update frequency. No emails 
    will be sent unless the game changes state. Please DO NOT use a number
    lower than 10 minutes, be nice to the server.
 
