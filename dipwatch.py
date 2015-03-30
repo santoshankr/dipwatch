@@ -1,6 +1,6 @@
 import requests
 import smtplib
-from sys import stdout
+from sys import stdout, stderr
 from time import sleep
 from bs4 import BeautifulSoup as bs
 
@@ -67,5 +67,6 @@ if __name__=='__main__':
                         print 'Script went derp, will try again later:', e
 
                 stdout.flush()
+                stderr.flush()
                 sleep(60 * DPW_REFRESH_MINUTES)
 
