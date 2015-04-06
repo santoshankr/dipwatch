@@ -37,7 +37,25 @@ state, things are probably working if you do.
 Known Bugs and Issues
 ------------------------------------
 
-I am absolutely positive that almost everything is broken. Treat this
-as a hack I threw together to fix something that was annoying me. If 
-you'd like to help me fix this, I will be grateful for an extended period
-of time. 
+Treat this as a hack I threw together to fix something that was annoying me. 
+If you'd like to help me fix issues or add features, I will be grateful for 
+an extended period of time. 
+
+
+To-Do
+------------------------------------
+
+Here are some ideas for extending dipwatch. Feel free to submit pull requests!
+
+1. Blocking alert. Inform me if my 'Not Ready' vote is holding up the game
+2. Update summary. Tell me what happened in this phase. Did I gain centers or
+   lose them? Do I have to make retreats?
+3. New Messages. Alert me if I've received any new messages. Including a summary
+   of each message would be fantastic!
+
+De-cloaking Research
+1. Attempt to identify other players in an anonymous games, if you know who's 
+   playing the game. Compare game state changes (received messages, votes or
+   saved move sets) with last seen times on player profiles. Is such de-cloaking
+   possible on webdiplomacy? If it is, perhaps last seen times should not be
+   shown on the profile except to moderators. 
