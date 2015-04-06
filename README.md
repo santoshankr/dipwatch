@@ -54,6 +54,7 @@ Here are some ideas for extending dipwatch. Feel free to submit pull requests!
    of each message would be fantastic!
 
 De-cloaking Research
+
 1. Attempt to identify other players in an anonymous games, if you know who's 
    playing the game. Compare game state changes (received messages, votes or
    saved move sets) with last seen times on player profiles. Is such de-cloaking
